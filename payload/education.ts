@@ -7,14 +7,14 @@ const education: IEducation.Payload = {
     {
       title: 'University of Open Source',
       subTitle: 'PhD in System Engineering (Honorary)',
-      startedAt: '1991-03',
-      // endedAt: '2010-02',
+      startedAt: '2020-09',
+      endedAt: '2022-08',
     },
     {
       title: 'Antarctica High School',
       subTitle: 'Graduated',
-      startedAt: '1989-03',
-      endedAt: '1991-02',
+      startedAt: '2014-03',
+      endedAt: '2020-08',
     },
   ],
 };
