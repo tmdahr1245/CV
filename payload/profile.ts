@@ -11,7 +11,7 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
+    title: 'Seungmok Kim',
     small: '(Tux)',
   },
   contact: [
