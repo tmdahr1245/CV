@@ -6,7 +6,7 @@ const education: IEducation.Payload = {
   list: [
     {
       title: 'Korea University',
-      subTitle: 'PhD in System Engineering (Honorary)',
+      subTitle: 'M.S. in Computer Science and Engineering',
       startedAt: '2020-09',
       endedAt: '2022-08',
     },
