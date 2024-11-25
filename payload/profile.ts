@@ -12,12 +12,12 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: 'Seungmok Kim',
-    small: '(Tux)',
+    small: '(software engineer)',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'tmdahr1245@naver.com',
+      link: 'mailto:tmdahr1245@naver.com',
       icon: faEnvelope,
     },
     {
@@ -26,7 +26,7 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://tmdahr1245.tistory.com',
       icon: faGithub,
     },
     {
