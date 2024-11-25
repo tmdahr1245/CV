@@ -1,5 +1,5 @@
-old_string = "/resume-nextjs/_next/static/images"
-new_string = "./_next/static/images"
+old_string = "/resume-nextjs/_next/static"
+new_string = "./_next/static"
 file_path = "/workspace/cv/docs/index.html"
 
 with open(file_path, 'r', encoding='utf-8') as file:
