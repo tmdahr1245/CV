@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faBlog } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -27,7 +27,7 @@ const profile: IProfile.Payload = {
     },
     {
       link: 'https://tmdahr1245.tistory.com',
-      icon: faGithub,
+      icon: faBlog,
     },
     {
       link: 'https://www.facebook.com/groups/ubuntu.ko',
