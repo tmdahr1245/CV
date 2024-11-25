@@ -22,7 +22,7 @@ module.exports = withImages({
     }
     return '';
   })(),
-});
+}, '.');
 // withCSS({
 // webpack: config => {
 //   config.resolve.alias['@'] = __dirname;
