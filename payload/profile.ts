@@ -1,9 +1,9 @@
 import { faEnvelope, faPhone, faBlog } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/F1QE51673852021.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -31,12 +31,11 @@ const profile: IProfile.Payload = {
     },
     {
       link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
+      icon: faLinkedin,
     },
   ],
   notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+    title: 'Announcement',
     icon: faBell,
   },
 };
