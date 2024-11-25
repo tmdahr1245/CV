@@ -6,6 +6,7 @@ const project: IProject.Payload = {
     {
       title: 'Linux Kernel Optimization Project',
       startedAt: '2020-06',
+      endedAt: '2020-12',
       where: 'Linux Foundation',
       descriptions: [
         {
