@@ -21,6 +21,23 @@ const experience: IExperience.Payload = {
       ],
     },
     {
+      title: 'SK Telecom',
+      positions: [
+        {
+          title: 'Intern',
+          startedAt: '2021-06',
+          endedAt: '2021-08',
+          descriptions: [
+            'Steering Kernel patching and updates for various distributions',
+            'Automating deployment and integration processes for Linux servers',
+            'Spearheading initiatives to enhance Linux kernel security',
+            'Collaborating with global developers to coordinate code contributions',
+          ],
+          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
+        },
+      ],
+    },
+    {
       title: 'Incross',
       positions: [
         {

@@ -4,10 +4,10 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      endedAt: '2020-12',
-      where: 'Linux Foundation',
+      title: 'Development of software framework technology for ultra-small biomimetic robots',
+      startedAt: '2022-12',
+      endedAt: '2024-11',
+      where: 'LIGNex1',
       descriptions: [
         {
           content:
@@ -25,9 +25,74 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Global Linux Bootcamp',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
+      title: 'Research on Deterministic Replay and Debugging for Robot Operating System',
+      startedAt: '2021-03',
+      endedAt: '2022-07',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title: 'In-depth analysis study on unmanned vehicle firmware based on binary similarity',
+      startedAt: '2022-04',
+      endedAt: '2022-08',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title: 'ROS Node-based Fuzzer for Autonomous Vehicle System',
+      startedAt: '2021-09',
+      endedAt: '2022-02',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title: 'Methodology for finding logical bugs in autonomous driving software',
+      startedAt: '2021-05',
+      endedAt: '2021-08',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Study on developing an automated framework for detecting vulnerabilities in unmanned vehicles',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
       where: 'Open Source Community',
       descriptions: [
         {
