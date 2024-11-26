@@ -5,7 +5,7 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: '"Poster: Deterministic Replay and Debugging for Robotic Systems"',
+      title: 'Poster: Deterministic Replay and Debugging for Robotic Systems',
       subTitle: '39th Annual Computer Security Applications Conference (ACSAC) 2023',
       at: '2023-12',
       descriptions: [
@@ -20,9 +20,9 @@ const presentation: IPresentation.Payload = {
     },
     {
       title:
-        '"Poster: AutoInsight: A Comprehensive Testing and Analysis Platform for Autonomous Driving Systems"',
+        'Poster: AutoInsight: A Comprehensive Testing and Analysis Platform for Autonomous Driving Systems',
       subTitle: 'Fed Supernova 2021',
-      at: '2023-09',
+      at: '2021-09',
       descriptions: [
         {
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
