@@ -5,23 +5,23 @@ const programmingLanguages: ISkill.Skill = {
   items: [
     {
       title: 'C++',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'C',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Python',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'javascript',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'PHP',
-      level: 1,
+      // level: 1,
     },
   ],
 };
