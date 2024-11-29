@@ -10,7 +10,8 @@ const presentation: IPresentation.Payload = {
       at: '2023-12',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content:
+            'Study addressing ROS non-determinism in debugging by tackling message drops and network delays for deterministic replay.',
         },
         {
           content: 'Slideshare:',
@@ -25,7 +26,8 @@ const presentation: IPresentation.Payload = {
       at: '2021-09',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content:
+            'Study on detecting corner case bugs in autonomous driving systems, tracking them, and finding their root causes.',
         },
         {
           content: 'Slideshare:',

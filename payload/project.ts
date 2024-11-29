@@ -5,7 +5,7 @@ const project: IProject.Payload = {
   list: [
     {
       title:
-        'Development of a common architecture and framework for manned and unmanned complex systems',
+        'Development of a common architecture and framework for MUM-T(Manned-Unmanned Teaming)',
       startedAt: '2024-11',
       where: 'LIGNex1',
       descriptions: [
@@ -31,35 +31,35 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content: '자율주행 SW 개발',
+          content: 'Autonomous Drinving Software Development',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '전역경로 알고리즘 개발' },
-            { content: '지역경로 및 충돌회피 알고리즘 개발' },
-            { content: '포인트 클라우드 생성 기능 개발' },
+            { content: 'Global Planning Algorithm Development' },
+            { content: 'Local Planning and Collision Avoidance Algorithm Development' },
+            { content: 'Point cloud generation development' },
           ],
         },
         {
-          content: '군집 기능 개발',
+          content: 'Swarm robot function development',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '군집 이동 대형 유지 기능 개발' },
-            { content: '군집 탐색 영역 분할 알고리즘 개발' },
+            { content: 'Swarm formation control development' },
+            { content: 'Swarm search area segmentation algorithm development' },
             { content: '...' },
           ],
         },
         {
-          content: 'SW 신뢰성 시험',
-          weight: 'MEDIUM',
-          descriptions: [{ content: 'SW 보안성 검증' }, { content: 'SW 코딩 규칙 검증' }],
-        },
-        {
-          content: '시뮬레이션 환경에서의 로봇 제어',
+          content: 'SW Testing',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '가제보 내부에서 로봇 제어 플러그인 개발' },
-            { content: '...' },
+            { content: 'SW vulnerability verification' },
+            { content: 'SW coding rules verification' },
           ],
+        },
+        {
+          content: 'Robot control in a simulation environment',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Robot control plugin in Gazebo' }, { content: '...' }],
         },
       ],
     },

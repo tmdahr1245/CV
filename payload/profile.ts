@@ -30,7 +30,7 @@ const profile: IProfile.Payload = {
       icon: faBlog,
     },
     {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
+      link: 'https://www.linkedin.com/in/seungmok-kim-242990179/',
       icon: faLinkedin,
     },
   ],

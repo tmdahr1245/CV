@@ -38,7 +38,11 @@ const kernelDevelopment: ISkill.Skill = {
       // level: 3,
     },
     {
-      title: 'Path Planning & Collision Avoidance',
+      title: 'Path Planning',
+      // level: 2,
+    },
+    {
+      title: 'Collision Avoidance',
       // level: 2,
     },
     {
@@ -60,7 +64,7 @@ const virtualization: ISkill.Skill = {
       // level: 3,
     },
     {
-      title: 'X64DBG',
+      title: 'X64dbg',
       // level: 3,
     },
     {
@@ -118,29 +122,29 @@ const networkSecurity: ISkill.Skill = {
   ],
 };
 
-const misc: ISkill.Skill = {
-  category: 'Misc',
-  items: [
-    {
-      title: 'Coffee Brewing',
-    },
-    {
-      title: "Rubik's Cube Solving",
-    },
-    {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
-    },
-  ],
-};
+// const misc: ISkill.Skill = {
+//   category: 'Misc',
+//   items: [
+//     {
+//       title: 'Coffee Brewing',
+//     },
+//     {
+//       title: "Rubik's Cube Solving",
+//     },
+//     {
+//       title: 'Table Tennis',
+//     },
+//     {
+//       title: 'Guitar Playing',
+//     },
+//     {
+//       title: 'Joke Telling',
+//     },
+//     {
+//       title: 'Duct Tape Crafting',
+//     },
+//   ],
+// };
 
 const skill: ISkill.Payload = {
   disable: false,
@@ -150,7 +154,7 @@ const skill: ISkill.Payload = {
     virtualization,
     automation,
     networkSecurity,
-    misc,
+    // misc,
   ],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
