@@ -27,23 +27,23 @@ const programmingLanguages: ISkill.Skill = {
 };
 
 const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+  category: 'Robotics Skills',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
+      title: 'ROS2',
+      // level: 3,
     },
     {
-      title: 'GNU Debugger',
-      level: 3,
+      title: 'Gazebo',
+      // level: 3,
     },
     {
-      title: 'Memory Management',
-      level: 2,
+      title: 'Path Planning & Collision Avoidance',
+      // level: 2,
     },
     {
-      title: 'System Call Interface',
-      level: 2,
+      title: 'Exploration',
+      // level: 2,
     },
   ],
 };
