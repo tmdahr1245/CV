@@ -44,6 +44,10 @@ const kernelDevelopment: ISkill.Skill = {
     {
       title: 'Exploration',
       // level: 2,
+    },,
+    {
+      title: 'DDS',
+      // level: 2,
     },
   ],
 };
