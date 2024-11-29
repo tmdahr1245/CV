@@ -1,8 +1,11 @@
 # modify path
 
+# old_string = "/resume-nextjs/_next/static"
+# new_string = "./_next/static"
+# file_path = "C:\\Users\\tmdahr1245\\Downloads\\CV\\docs\\index.html"
 old_string = "/resume-nextjs/_next/static"
 new_string = "./_next/static"
-file_path = "/workspace/cv/docs/index.html"
+file_path = "./docs/index.html"
 
 with open(file_path, 'r', encoding='utf-8') as file:
     content = file.read()

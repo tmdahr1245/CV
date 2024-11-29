@@ -3,7 +3,8 @@ from datetime import datetime
 
 # modify last update
 
-json_path = "/workspace/cv/package.json"
+#json_path = "/workspace/cv/package.json"
+json_path = "./package.json"
 
 with open(json_path, 'r', encoding='utf-8') as file:
     data = json.load(file)
