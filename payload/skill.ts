@@ -88,7 +88,7 @@ const automation: ISkill.Skill = {
     {
       title: 'redis',
       // level: 3,
-    }
+    },
   ],
 };
 
@@ -114,7 +114,7 @@ const networkSecurity: ISkill.Skill = {
     {
       title: 'Latex',
       // level: 2,
-    }
+    },
   ],
 };
 

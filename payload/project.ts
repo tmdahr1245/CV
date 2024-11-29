@@ -4,7 +4,8 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Development of a common architecture and framework for manned and unmanned complex systems',
+      title:
+        'Development of a common architecture and framework for manned and unmanned complex systems',
       startedAt: '2024-11',
       where: 'LIGNex1',
       descriptions: [
@@ -30,8 +31,7 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content:
-            '자율주행 SW 개발',
+          content: '자율주행 SW 개발',
           weight: 'MEDIUM',
           descriptions: [
             { content: '전역경로 알고리즘 개발' },
@@ -40,8 +40,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content:
-            '군집 기능 개발',
+          content: '군집 기능 개발',
           weight: 'MEDIUM',
           descriptions: [
             { content: '군집 이동 대형 유지 기능 개발' },
@@ -50,17 +49,12 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content:
-            'SW 신뢰성 시험',
+          content: 'SW 신뢰성 시험',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: 'SW 보안성 검증' },
-            { content: 'SW 코딩 규칙 검증' },
-          ],
+          descriptions: [{ content: 'SW 보안성 검증' }, { content: 'SW 코딩 규칙 검증' }],
         },
         {
-          content:
-            '시뮬레이션 환경에서의 로봇 제어',
+          content: '시뮬레이션 환경에서의 로봇 제어',
           weight: 'MEDIUM',
           descriptions: [
             { content: '가제보 내부에서 로봇 제어 플러그인 개발' },

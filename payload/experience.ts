@@ -15,7 +15,7 @@ const experience: IExperience.Payload = {
             'Interconnecting between each robotics foftware module',
             'Optimizing source code and analyzing performance in a limited environment',
             'Testing and Validating robotics software',
-            'Collaborating with consortium(partner company and graduate school) to achieve collaborative development'
+            'Collaborating with consortium(partner company and graduate school) to achieve collaborative development',
           ],
           skillKeywords: ['C++', 'ROS2', 'Linux', 'C', 'SW Test'],
         },

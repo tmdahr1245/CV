@@ -10,7 +10,7 @@ const introduce: IIntroduce.Payload = {
     '리눅스에 유창한',
     '알고 있는 지식을 알려주고 배우며 함께 성장하는것을 지향하는',
     '프로그래밍을 활용하여 문제를 해결하는 것을 좋아합니다.',
-    '프로그래밍에 관련된 모든것을 알고싶어하는'
+    '프로그래밍에 관련된 모든것을 알고싶어하는',
   ],
   sign: 'Tux',
   // sign: packageJson.author.name,
