@@ -44,7 +44,7 @@ const kernelDevelopment: ISkill.Skill = {
     {
       title: 'Exploration',
       // level: 2,
-    },,
+    },
     {
       title: 'DDS',
       // level: 2,
@@ -53,27 +53,27 @@ const kernelDevelopment: ISkill.Skill = {
 };
 
 const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+  category: 'SW Analysis',
   items: [
     {
-      title: 'Docker',
-      level: 3,
+      title: 'GDB',
+      // level: 3,
     },
     {
-      title: 'KVM',
-      level: 3,
+      title: 'X64DBG',
+      // level: 3,
     },
     {
-      title: 'Xen',
-      level: 2,
+      title: 'IDA',
+      // level: 2,
     },
     {
       title: 'VirtualBox',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'VMware ESXi',
-      level: 1,
+      // level: 1,
     },
   ],
 };
