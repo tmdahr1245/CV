@@ -16,7 +16,7 @@ const experience: IExperience.Payload = {
             'Spearheading initiatives to enhance Linux kernel security',
             'Collaborating with global developers to coordinate code contributions',
           ],
-          skillKeywords: ['C++', 'ROS2' 'Linux', 'Kernel', 'Security', 'Automation'],
+          skillKeywords: ['C++', 'ROS2', 'Linux', 'Kernel', 'Security', 'Automation'],
         },
       ],
     },
