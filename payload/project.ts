@@ -71,7 +71,7 @@ const project: IProject.Payload = {
     },
     {
       title: 'Ultra-small ground robot swarm operation control technology',
-      startedAt: '2024-06',
+      startedAt: '2024-01',
       endedAt: '2024-08',
       where: 'LIGNex1',
       descriptions: [

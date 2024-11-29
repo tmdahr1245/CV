@@ -11,12 +11,13 @@ const experience: IExperience.Payload = {
           title: 'Robotics Software Engineer',
           startedAt: '2022-10',
           descriptions: [
-            'Steering Kernel patching and updates for various distributions',
-            'Automating deployment and integration processes for Linux servers',
-            'Spearheading initiatives to enhance Linux kernel security',
-            'Collaborating with global developers to coordinate code contributions',
+            'Designing and implementing robotics autonomous driving algorithm',
+            'Interconnecting between each robotics foftware module',
+            'Optimizing source code and analyzing performance in a limited environment',
+            'Testing and Validating robotics software',
+            'Collaborating with consortium(partner company and graduate school) to achieve collaborative development'
           ],
-          skillKeywords: ['C++', 'ROS2', 'Linux', 'Kernel', 'Security', 'Automation'],
+          skillKeywords: ['C++', 'ROS2', 'Linux', 'C', 'SW Test'],
         },
       ],
     },

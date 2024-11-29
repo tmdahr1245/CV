@@ -16,13 +16,13 @@ const programmingLanguages: ISkill.Skill = {
       // level: 2,
     },
     {
-      title: 'javascript',
+      title: 'JavaScript',
       // level: 2,
     },
-    {
-      title: 'PHP',
-      // level: 1,
-    },
+    // {
+    //   title: 'PHP',
+    //   // level: 1,
+    // },
   ],
 };
 
@@ -79,62 +79,42 @@ const virtualization: ISkill.Skill = {
 };
 
 const automation: ISkill.Skill = {
-  category: 'Automation',
+  category: 'Databases',
   items: [
     {
-      title: 'Ansible',
-      level: 3,
+      title: 'MariaDB',
+      // level: 3,
     },
     {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
-    {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
-      level: 1,
-    },
-    {
-      title: 'Infrastructure as Code',
-      level: 1,
-    },
+      title: 'redis',
+      // level: 3,
+    }
   ],
 };
 
 const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
+  category: 'Etc',
   items: [
     {
-      title: 'iptables',
-      level: 3,
+      title: 'Docker',
+      // level: 3,
     },
     {
-      title: 'OpenSSH',
-      level: 3,
+      title: 'Nginx',
+      // level: 3,
     },
     {
-      title: 'OpenSSL',
-      level: 2,
+      title: 'Git',
+      // level: 2,
     },
     {
-      title: 'NACLs',
-      level: 2,
+      title: 'Doxygen',
+      // level: 2,
     },
     {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
-    },
+      title: 'Latex',
+      // level: 2,
+    }
   ],
 };
 
