@@ -14,8 +14,8 @@ const presentation: IPresentation.Payload = {
             'Study addressing ROS non-determinism in debugging by tackling message drops and network delays for deterministic replay.',
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net/',
+          content: 'PDF:',
+          postHref: 'https://github.com/tmdahr1245/CV/blob/master/docs/robodbg-poster-acsac23.pdf',
         },
       ],
     },
@@ -30,8 +30,8 @@ const presentation: IPresentation.Payload = {
             'Study on detecting corner case bugs in autonomous driving systems, tracking them, and finding their root causes.',
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net/',
+          content: 'PDF:',
+          postHref: 'https://github.com/tmdahr1245/CV/blob/master/docs/autoinsight-poster-fed21.pdf',
         },
       ],
     },

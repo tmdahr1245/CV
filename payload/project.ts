@@ -165,6 +165,193 @@ const project: IProject.Payload = {
         },
       ],
     },
+    {
+      title:
+        'Countermeasures against adversarial attacks targeting ROS-based autonomous driving software',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Autoware source code analysis, a ros-based open source autonomous driving software',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Development of an intrusion detection system for malicious CAN communication packets',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Advertising platform backend development and DB optimization',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Online game blocking kernel driver development',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Messenger hacking: Changing files to be transmitted',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Development of an automated analysis platform for executable file behavior',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Development of a multi-person access random anonymous chat program',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Development of game macro neutralization program using hooking',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Development of ransomware and malware for practice(screen lock, information theft)',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
+    {
+      title:
+        'Development of on-campus course review application',
+      startedAt: '2021-04',
+      endedAt: '2021-11',
+      where: 'Open Source Community',
+      descriptions: [
+        {
+          content:
+            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+        },
+        {
+          content:
+            'Successfully trained over 5,000 participants in system administration and security. ',
+        },
+      ],
+    },
   ],
 };
 
