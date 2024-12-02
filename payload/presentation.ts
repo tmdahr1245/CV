@@ -31,7 +31,8 @@ const presentation: IPresentation.Payload = {
         },
         {
           content: 'PDF:',
-          postHref: 'https://github.com/tmdahr1245/CV/blob/master/docs/autoinsight-poster-fed21.pdf',
+          postHref:
+            'https://github.com/tmdahr1245/CV/blob/master/docs/autoinsight-poster-fed21.pdf',
         },
       ],
     },
