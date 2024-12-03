@@ -5,8 +5,22 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'N0Named',
+      subTitle:
+        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+      startedAt: '2021-06',
+      endedAt: '2022-08',
+    },
+    {
       title: 'SK Telecom (Intern)',
       subTitle: 'Software Composition Analysis',
+      startedAt: '2021-06',
+      endedAt: '2021-08',
+    },
+    {
+      title: 'Incognito',
+      subTitle:
+        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
       startedAt: '2021-06',
       endedAt: '2021-08',
     },
@@ -21,24 +35,17 @@ const etc: IEtc.Payload = {
       subTitle:
         'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
       startedAt: '2019-04',
-      endedAt: '2019-11',
+      endedAt: '2019-12',
+    },
+    {
+      title: 'BTRUST',
+      subTitle:
+        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+      startedAt: '2016-09',
+      endedAt: '2017-03',
     },
     {
       title: 'CAT-Security',
-      subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
-      startedAt: '2015-09',
-      endedAt: '2020-08',
-    },
-    {
-      title: 'N0Named',
-      subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
-      startedAt: '2015-09',
-      endedAt: '2020-08',
-    },
-    {
-      title: 'Incognito',
       subTitle:
         'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
       startedAt: '2015-09',

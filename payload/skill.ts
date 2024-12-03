@@ -71,14 +71,6 @@ const virtualization: ISkill.Skill = {
       title: 'IDA',
       // level: 2,
     },
-    {
-      title: 'VirtualBox',
-      // level: 2,
-    },
-    {
-      title: 'VMware ESXi',
-      // level: 1,
-    },
   ],
 };
 
