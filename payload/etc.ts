@@ -13,7 +13,8 @@ const etc: IEtc.Payload = {
     },
     {
       title: 'SK Telecom',
-      subTitle: 'Analyzing software composition as an intern and presenting the results at the IoTcube conference.',
+      subTitle:
+        'Analyzing software composition as an intern and presenting the results at the IoTcube conference.',
       startedAt: '2021-06',
       endedAt: '2021-08',
     },
@@ -26,7 +27,8 @@ const etc: IEtc.Payload = {
     },
     {
       title: 'Incross',
-      subTitle: "Developing an advertising platform server at SK's Media Rep Co using Node.js, MariaDB, redis, and Modern C++ as an intern ",
+      subTitle:
+        "Developing an advertising platform server at SK's Media Rep Co using Node.js, MariaDB, redis, and Modern C++ as an intern ",
       startedAt: '2020-01',
       endedAt: '2020-06',
     },
