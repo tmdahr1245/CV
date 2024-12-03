@@ -11,17 +11,8 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
-        },
-        {
-          content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
-          ],
-        },
+            'Ongoing project',
+        }
       ],
     },
     {
@@ -32,16 +23,19 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+            'Developing and applying swarm navigation stack task node',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Planning, exploring and mapping' },
+              { content: 'change lidar basing to depth camera basing' },
+              { content: 'visualizing for exploration' },
+              { content: "porting other project's ros node" },
+            ],
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
-          ],
+            'Configuring simulation environment using GAZEBO',
+            weight: 'MEDIUM',
         },
       ],
     },
@@ -66,7 +60,6 @@ const project: IProject.Payload = {
           descriptions: [
             { content: 'Swarm formation control development' },
             { content: 'Swarm search area segmentation algorithm development' },
-            { content: '...' },
           ],
         },
         {
@@ -80,7 +73,12 @@ const project: IProject.Payload = {
         {
           content: 'Robot control in a simulation environment',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Robot control plugin in Gazebo' }, { content: '...' }],
+          descriptions: [{ content: 'Robot control plugin in Gazebo' }],
+        },
+        {
+          content: 'Documenting SW design',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Applying and configuring Doxygen to project' }],
         },
       ],
     },
