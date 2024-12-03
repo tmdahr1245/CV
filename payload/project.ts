@@ -309,7 +309,7 @@ const project: IProject.Payload = {
             'Successfully trained over 5,000 participants in system administration and security. ',
         },
       ],
-    }
+    },
   ],
 };
 
