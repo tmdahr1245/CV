@@ -7,47 +7,47 @@ const etc: IEtc.Payload = {
     {
       title: 'N0Named',
       subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+        'Hacker group of people with various jobs. Studing malware and outsourcing development.',
       startedAt: '2021-06',
       endedAt: '2022-08',
     },
     {
-      title: 'SK Telecom (Intern)',
-      subTitle: 'Software Composition Analysis',
+      title: 'SK Telecom',
+      subTitle: 'Analyzing software composition as an intern and presenting the results at the IoTcube conference.',
       startedAt: '2021-06',
       endedAt: '2021-08',
     },
     {
       title: 'Incognito',
       subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+        "A joint conference of domestic universities and hacking teams. Mentoring undergraduate students' projects on the topic of attacks on autonomous driving SW.",
       startedAt: '2021-06',
       endedAt: '2021-08',
     },
     {
-      title: 'Incross (Intern)',
-      subTitle: 'Backend & DataBase Procedure',
+      title: 'Incross',
+      subTitle: "Developing an advertising platform server at SK's Media Rep Co using Node.js, MariaDB, redis, and Modern C++ as an intern ",
       startedAt: '2020-01',
       endedAt: '2020-06',
     },
     {
       title: 'Software Maestro (10th)',
       subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+        'External Activity Organized by `Ministry of Science and ICT` and FKII(The Federation of Korean Information Industries)',
       startedAt: '2019-04',
       endedAt: '2019-12',
     },
     {
       title: 'BTRUST',
       subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+        'Security consulting for ISMS certification and penetration testing on servers, DBs, PCs, and websites of a domestic university hospital and a railway company.',
       startedAt: '2016-09',
       endedAt: '2017-03',
     },
     {
       title: 'CAT-Security',
       subTitle:
-        'External Activity Organized by ‘Ministry of Science and ICT’ and FKII(The Federation of Korean Information Industries)',
+        'A hacking club on campus. Hosting and operating hacking competitions(CTF)  in the field of reverse engineering. Penetration testing targeting about 50 campus websites.',
       startedAt: '2015-09',
       endedAt: '2020-08',
     },
