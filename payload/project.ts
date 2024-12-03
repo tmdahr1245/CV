@@ -10,9 +10,8 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content:
-            'Ongoing project',
-        }
+          content: 'Ongoing project',
+        },
       ],
     },
     {
@@ -22,20 +21,18 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content:
-            'Developing and applying swarm navigation stack task node',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Planning, exploring and mapping' },
-              { content: 'change lidar basing to depth camera basing' },
-              { content: 'visualizing for exploration' },
-              { content: "porting other project's ros node" },
-            ],
+          content: 'Developing and applying swarm navigation stack task node',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Planning, exploring and mapping' },
+            { content: 'change lidar basing to depth camera basing' },
+            { content: 'visualizing for exploration' },
+            { content: "porting other project's ros node" },
+          ],
         },
         {
-          content:
-            'Configuring simulation environment using GAZEBO',
-            weight: 'MEDIUM',
+          content: 'Configuring simulation environment using GAZEBO',
+          weight: 'MEDIUM',
         },
       ],
     },
