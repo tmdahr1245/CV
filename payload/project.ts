@@ -10,9 +10,8 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content:
-            'Ongoing project',
-        }
+          content: 'Ongoing project',
+        },
       ],
     },
     {
@@ -22,20 +21,18 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content:
-            'Developing and applying swarm navigation stack task node',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'planning, exploring and mapping' },
-              { content: 'change lidar basing to depth camera basing' },
-              { content: 'visualizing for exploration' },
-              { content: "porting other project's ros node" },
-            ],
+          content: 'Developing and applying swarm navigation stack task node',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'planning, exploring and mapping' },
+            { content: 'change lidar basing to depth camera basing' },
+            { content: 'visualizing for exploration' },
+            { content: "porting other project's ros node" },
+          ],
         },
         {
-          content:
-            'Configuring simulation environment using GAZEBO',
-            weight: 'MEDIUM',
+          content: 'Configuring simulation environment using GAZEBO',
+          weight: 'MEDIUM',
         },
       ],
     },
@@ -235,21 +232,25 @@ const project: IProject.Payload = {
       where: 'Korea University',
       descriptions: [
         {
-          content:
-            'Focusing on vulnerabilities in CAN communication',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Developing a time and frequency analysis-based Intrusion Detection System (IDS) to detect threats like flooding, fuzzy, and malfunction attacks' },
-            ],
+          content: 'Focusing on vulnerabilities in CAN communication',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Developing a time and frequency analysis-based Intrusion Detection System (IDS) to detect threats like flooding, fuzzy, and malfunction attacks',
+            },
+          ],
         },
         {
-          content:
-            'Experiments in real hardware environments',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: "Injecting CAN packets via Vector's VN1640, PICAN3 and CANoe on Raspberry Pi 4. "},
-              { content: "Implementing an IDS that filters CAN packets in C language." },
-            ],
+          content: 'Experiments in real hardware environments',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                "Injecting CAN packets via Vector's VN1640, PICAN3 and CANoe on Raspberry Pi 4. ",
+            },
+            { content: 'Implementing an IDS that filters CAN packets in C language.' },
+          ],
         },
       ],
     },
@@ -260,52 +261,34 @@ const project: IProject.Payload = {
       where: 'Incross',
       descriptions: [
         {
-          content:
-            'Legacy database intergration',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Google ads API' },
-            ],
+          content: 'Legacy database intergration',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Google ads API' }],
         },
         {
-          content:
-            'RESTful API development',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Facebook ads API, Kakao ads API, DreamFactory, ZooKeeper' },
-            ],
+          content: 'RESTful API development',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Facebook ads API, Kakao ads API, DreamFactory, ZooKeeper' }],
         },
         {
-          content:
-            'Improvement existing advertising execution case data collection process',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Reduced execution time from 10 hours to 2 hours' },
-            ],
+          content: 'Improvement existing advertising execution case data collection process',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Reduced execution time from 10 hours to 2 hours' }],
         },
         {
-          content:
-            'MariaDB UDF Development',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'redis for caching (Bloom Filter, HyperLogLog)' },
-            ],
+          content: 'MariaDB UDF Development',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'redis for caching (Bloom Filter, HyperLogLog)' }],
         },
         {
-          content:
-            'Customizing vendure.io, a GraphQL-based framework ',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Converting TypeORM to RESTfulAPI' },
-            ],
+          content: 'Customizing vendure.io, a GraphQL-based framework ',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Converting TypeORM to RESTfulAPI' }],
         },
         {
-          content:
-            'Implementing T deal',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Sending push notifications to Android using Firebase' },
-            ],
+          content: 'Implementing T deal',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Sending push notifications to Android using Firebase' }],
         },
       ],
     },
