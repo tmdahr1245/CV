@@ -317,35 +317,34 @@ const project: IProject.Payload = {
         {
           content:
             'Defense against image-based macros in Android emulators by leveraging DLL injection',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Macro like AutoHotKey or OpenCV' }, 
-              { content: 'Hooking WinAPI through macro program analysis to block macros' },
-              { content: 'Macro process monitoring' },
-              { content: 'When running macro, block it using DLL injection ' }
-            ],
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Macro like AutoHotKey or OpenCV' },
+            { content: 'Hooking WinAPI through macro program analysis to block macros' },
+            { content: 'Macro process monitoring' },
+            { content: 'When running macro, block it using DLL injection ' },
+          ],
         },
         {
-          content:
-            'https://github.com/tmdahr1245/Image-search-macro-analysis',
+          content: 'https://github.com/tmdahr1245/Image-search-macro-analysis',
         },
       ],
     },
     {
-      title: 'Development of ransomware and malware for cyber military training(screen lock, information theft)',
+      title:
+        'Development of ransomware and malware for cyber military training(screen lock, information theft)',
       startedAt: '2018-02',
       endedAt: '2018-06',
       where: 'ROKA Army Headquarters Cyber ​​Operations Center',
       descriptions: [
         {
-          content:
-            'Developing malware and ransomware using Win32 API',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Stealing clipboard data' }, 
-              { content: 'Malware locking screen' },
-              { content: 'Document Encryption' }
-            ],
+          content: 'Developing malware and ransomware using Win32 API',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Stealing clipboard data' },
+            { content: 'Malware locking screen' },
+            { content: 'Document Encryption' },
+          ],
         },
       ],
     },
