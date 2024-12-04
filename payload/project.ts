@@ -309,34 +309,43 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Development of game macro neutralization program using hooking',
+      title: 'Blocking game macro program using hooking',
       startedAt: '2019-02',
       endedAt: '2019-04',
       where: 'Toy Project',
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+            'Defense against image-based macros in Android emulators by leveraging DLL injection',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Macro like AutoHotKey or OpenCV' }, 
+              { content: 'Hooking WinAPI through macro program analysis to block macros' },
+              { content: 'Macro process monitoring' },
+              { content: 'When running macro, block it using DLL injection ' }
+            ],
         },
         {
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'https://github.com/tmdahr1245/Image-search-macro-analysis',
         },
       ],
     },
     {
-      title: 'Development of ransomware and malware for practice(screen lock, information theft)',
+      title: 'Development of ransomware and malware for cyber military training(screen lock, information theft)',
       startedAt: '2018-02',
-      endedAt: '2018-08',
+      endedAt: '2018-06',
       where: 'ROKA Army Headquarters Cyber ​​Operations Center',
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Developing malware and ransomware using Win32 API',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Stealing clipboard data' }, 
+              { content: 'Malware locking screen' },
+              { content: 'Document Encryption' }
+            ],
         },
       ],
     },
