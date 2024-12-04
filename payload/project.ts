@@ -299,35 +299,41 @@ const project: IProject.Payload = {
       where: 'Software Maestro',
       descriptions: [
         {
-          content:
-            'Project intention',
+          content: 'Project intention',
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Analyze files within a sandbox to prevent impact on users' },
-            { content: 'Provides dynamic/static analysis results and event-based behavior analysis results' },
+            {
+              content:
+                'Provides dynamic/static analysis results and event-based behavior analysis results',
+            },
             { content: 'Easy to use on the web without installation' },
             { content: 'Analysis possible within the webpage' },
           ],
         },
         {
-          content:
-            'Windows executable behavior analysis',
+          content: 'Windows executable behavior analysis',
           weight: 'MEDIUM',
           descriptions: [
             { content: 'DLL Injection, Inline Hooking(WinAPI, NtAPI)' },
             { content: 'Json format logging' },
-            { content: 'Dynamic analysis of File System, Registry, Process, Communication, and Service' },
+            {
+              content:
+                'Dynamic analysis of File System, Registry, Process, Communication, and Service',
+            },
             { content: 'Static analysis of file info(file hash, risk ...)' },
           ],
         },
         {
-          content:
-            'Backend',
+          content: 'Backend',
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Node.JS / express / Web Socket / MySQL' },
             { content: 'Google Cloud Platform / QEMU-KVM (sandbox)' },
-            { content: 'spice-HTML5 + node-websockify(Output the vm screen and generate click and keyboard events in the browser)' },
+            {
+              content:
+                'spice-HTML5 + node-websockify(Output the vm screen and generate click and keyboard events in the browser)',
+            },
             { content: 'Parsing large logs using Json Stream' },
             { content: 'Determining the risk of executable files using Virus Total API' },
           ],
@@ -335,9 +341,7 @@ const project: IProject.Payload = {
         {
           content: 'Using VCS and collaboration management tools',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: 'GitLab / Trello' },
-          ],
+          descriptions: [{ content: 'GitLab / Trello' }],
         },
         {
           content: 'https://github.com/tmdahr1245/CV/blob/master/docs/dadol_demo.mp4',
