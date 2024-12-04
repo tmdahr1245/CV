@@ -17,7 +17,7 @@ const experience: IExperience.Payload = {
             'Testing and Validating robotics software',
             'Collaborating with consortium(partner company and graduate school) to achieve collaborative development',
           ],
-          skillKeywords: ['C++', 'ROS2', 'Linux', 'C', 'SW Test'],
+          skillKeywords: ['C++', 'Python', 'ROS2', 'Linux', 'C', 'SW Test'],
         },
       ],
     },
