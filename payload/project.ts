@@ -128,27 +128,42 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+            'Developing a kernel driver that blocks specific processes',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Driver owns descriptor so that process list cannot be accessed from user mode' }
+            ],
         },
         {
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Developing a secure user-mode application that can send a list of blocking processes to the kernel driver.',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Encryption to prevent application use without authentication' }
+            ],
         },
       ],
     },
     {
-      title: 'Messenger hacking: Changing files to be transmitted',
+      title: 'Windows Messenger hacking: Changing files to be transmitted',
       startedAt: '2021-07',
       endedAt: '2021-09',
       where: 'Toy Project',
       descriptions: [
         {
-          content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+          content: 'Windows messenger app file transfer code analysis',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Analyzing file transfer APIs through reverse engineering' }],
         },
         {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+          content: 'Developing a code injecter (agent)',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Injecting a DLL that acts as malware into the messenger app' }],
+        },
+        {
+          content: 'Developing Malware DLL',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Hooking File Transfer API' }, {content: 'Including the executable to be replaced in the resource'}],
         },
       ],
     },
@@ -161,11 +176,13 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Adversarial attacks on camera perception nodes in autonomous driving systems',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'FGSM attack on darknet yolov3' },
+              { content: 'NMS-based algorithm adopted from daedalus paper' },
+              { content: 'Paralysis of camera recognition function of autonomous driving system' },
+            ],
         },
       ],
     },
@@ -177,30 +194,33 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
-        },
-      ],
-    },
-    {
-      title: 'Methodology for finding logical bugs in autonomous driving software',
-      startedAt: '2021-05',
-      endedAt: '2021-08',
-      where: 'Korea University',
-      descriptions: [
-        {
-          content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Documenting an analysis result by categorizing into Localization / Detection / Decision / Planning',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'gnss localizer, lidar localizer, dead reckoner' },
+              { content: 'lidar and vision detecter,tracker, fusion detector, motion predictor' },
+              { content: 'a conservative, independent decision-making system for autonomous driving systems' },
+              { content: 'global Planner, local Planner, driving stabilizer' },
+            ],
         },
       ],
     },
+    // {
+    //   title: 'Methodology for finding logical bugs in autonomous driving software',
+    //   startedAt: '2021-05',
+    //   endedAt: '2021-08',
+    //   where: 'Korea University',
+    //   descriptions: [
+    //     {
+    //       content:
+    //         'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+    //     },
+    //     {
+    //       content:
+    //         'Successfully trained over 5,000 participants in system administration and security. ',
+    //     },
+    //   ],
+    // },
     {
       title:
         'Study on developing an automated framework for detecting vulnerabilities in unmanned vehicles',
@@ -232,15 +252,17 @@ const project: IProject.Payload = {
       title: 'Research on Deterministic Replay and Debugging for Robot Operating System',
       startedAt: '2021-03',
       endedAt: '2022-07',
-      where: 'Korea University',
+      where: 'Korea University & University of Texas at Dallas',
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Eliminating nondeterminism in the record and replay system by modifying open source ROS',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Solving droped messages problem by monitoring the subscription queue' },
+              { content: 'Changing message structure by adding uuid to identify droped and processed messages' },
+              { content: 'Converting the communication model in replay time to solve delay' },
+            ],
         },
       ],
     },
