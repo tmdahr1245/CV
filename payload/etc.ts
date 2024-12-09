@@ -49,7 +49,7 @@ const etc: IEtc.Payload = {
     {
       title: 'CAT-Security',
       subTitle:
-        'A hacking club on campus. Hosting and operating hacking competitions(CTF)  in the field of reverse engineering. Penetration testing targeting about 50 campus websites.',
+        'A hacking club on campus. Hosting and operating hacking competitions(CTF)  in the field of reverse engineering. Penetration test targeting about 50 campus websites.',
       startedAt: '2015-09',
       endedAt: '2020-08',
     },

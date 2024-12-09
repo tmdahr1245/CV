@@ -87,11 +87,14 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Analyzing firmware for unmanned vehicle ',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Classification by segment' },
+              { content: 'Analyze binary similarity' },
+              { content: 'Collect open/closed source firmware' },
+              { content: 'Extract binary features by compiler type and version' },
+            ],
         },
       ],
     },
@@ -103,12 +106,18 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+            'Implementing fuzzing framework',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Input generator using probability-based algorithm' },
+              { content: 'Status monitor that watchs the status of the target node and detects crashes' },
+              { content: 'Logger that saves input to rosbag file when runtime error occurs' },
+            ],
         },
         {
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
-        },
+            'Runtime error found on 21 nodes in Autoware, a ros-based open source autonomous driving software',
+        }
       ],
     },
     {
@@ -201,11 +210,21 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+            'Review of introduction of firmware emulation technology',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Planning an emulation scenario' },
+              { content: 'Classification and analysis of firmware for various platforms (ROS/Linux/Nuttx/STM32)' },
+            ],
         },
         {
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Applying firmware emulation technology',
+            weight: 'MEDIUM',
+            descriptions: [
+              { content: 'Testing Firmadyne and QEMU' },
+              { content: 'Testing of emulation technology(P2IM, Halucinator) that can support peripherals for unmanned vehicles' },
+            ],
         },
       ],
     },
