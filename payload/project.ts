@@ -86,15 +86,14 @@ const project: IProject.Payload = {
       where: 'National Security Research Institute',
       descriptions: [
         {
-          content:
-            'Analyzing firmware for unmanned vehicle ',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Classification by segment' },
-              { content: 'Analyze binary similarity' },
-              { content: 'Collect open/closed source firmware' },
-              { content: 'Extract binary features by compiler type and version' },
-            ],
+          content: 'Analyzing firmware for unmanned vehicle ',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Classification by segment' },
+            { content: 'Analyze binary similarity' },
+            { content: 'Collect open/closed source firmware' },
+            { content: 'Extract binary features by compiler type and version' },
+          ],
         },
       ],
     },
@@ -105,19 +104,21 @@ const project: IProject.Payload = {
       where: 'Korea University',
       descriptions: [
         {
-          content:
-            'Implementing fuzzing framework',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Input generator using probability-based algorithm' },
-              { content: 'Status monitor that watchs the status of the target node and detects crashes' },
-              { content: 'Logger that saves input to rosbag file when runtime error occurs' },
-            ],
+          content: 'Implementing fuzzing framework',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Input generator using probability-based algorithm' },
+            {
+              content:
+                'Status monitor that watchs the status of the target node and detects crashes',
+            },
+            { content: 'Logger that saves input to rosbag file when runtime error occurs' },
+          ],
         },
         {
           content:
             'Runtime error found on 21 nodes in Autoware, a ros-based open source autonomous driving software',
-        }
+        },
       ],
     },
     {
@@ -209,22 +210,26 @@ const project: IProject.Payload = {
       where: 'National Security Research Institute',
       descriptions: [
         {
-          content:
-            'Review of introduction of firmware emulation technology',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Planning an emulation scenario' },
-              { content: 'Classification and analysis of firmware for various platforms (ROS/Linux/Nuttx/STM32)' },
-            ],
+          content: 'Review of introduction of firmware emulation technology',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Planning an emulation scenario' },
+            {
+              content:
+                'Classification and analysis of firmware for various platforms (ROS/Linux/Nuttx/STM32)',
+            },
+          ],
         },
         {
-          content:
-            'Applying firmware emulation technology',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Testing Firmadyne and QEMU' },
-              { content: 'Testing of emulation technology(P2IM, Halucinator) that can support peripherals for unmanned vehicles' },
-            ],
+          content: 'Applying firmware emulation technology',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Testing Firmadyne and QEMU' },
+            {
+              content:
+                'Testing of emulation technology(P2IM, Halucinator) that can support peripherals for unmanned vehicles',
+            },
+          ],
         },
       ],
     },
