@@ -128,20 +128,22 @@ const project: IProject.Payload = {
       where: 'Toy Project',
       descriptions: [
         {
-          content:
-            'Developing a kernel driver that blocks specific processes',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Driver owns descriptor so that process list cannot be accessed from user mode' }
-            ],
+          content: 'Developing a kernel driver that blocks specific processes',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Driver owns descriptor so that process list cannot be accessed from user mode',
+            },
+          ],
         },
         {
           content:
             'Developing a secure user-mode application that can send a list of blocking processes to the kernel driver.',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Encryption to prevent application use without authentication' }
-            ],
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Encryption to prevent application use without authentication' },
+          ],
         },
       ],
     },
@@ -159,12 +161,17 @@ const project: IProject.Payload = {
         {
           content: 'Developing a code injecter (agent)',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Injecting a DLL that acts as malware into the messenger app' }],
+          descriptions: [
+            { content: 'Injecting a DLL that acts as malware into the messenger app' },
+          ],
         },
         {
           content: 'Developing Malware DLL',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Hooking File Transfer API' }, {content: 'Including the executable to be replaced in the resource'}],
+          descriptions: [
+            { content: 'Hooking File Transfer API' },
+            { content: 'Including the executable to be replaced in the resource' },
+          ],
         },
       ],
     },
@@ -176,14 +183,13 @@ const project: IProject.Payload = {
       where: 'Incognito',
       descriptions: [
         {
-          content:
-            'Adversarial attacks on camera perception nodes in autonomous driving systems',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'FGSM attack on darknet yolov3' },
-              { content: 'NMS-based algorithm adopted from daedalus paper' },
-              { content: 'Paralysis of camera recognition function of autonomous driving system' },
-            ],
+          content: 'Adversarial attacks on camera perception nodes in autonomous driving systems',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'FGSM attack on darknet yolov3' },
+            { content: 'NMS-based algorithm adopted from daedalus paper' },
+            { content: 'Paralysis of camera recognition function of autonomous driving system' },
+          ],
         },
       ],
     },
@@ -196,13 +202,16 @@ const project: IProject.Payload = {
         {
           content:
             'Documenting an analysis result by categorizing into Localization / Detection / Decision / Planning',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'gnss localizer, lidar localizer, dead reckoner' },
-              { content: 'lidar and vision detecter,tracker, fusion detector, motion predictor' },
-              { content: 'a conservative, independent decision-making system for autonomous driving systems' },
-              { content: 'global Planner, local Planner, driving stabilizer' },
-            ],
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'gnss localizer, lidar localizer, dead reckoner' },
+            { content: 'lidar and vision detecter,tracker, fusion detector, motion predictor' },
+            {
+              content:
+                'a conservative, independent decision-making system for autonomous driving systems',
+            },
+            { content: 'global Planner, local Planner, driving stabilizer' },
+          ],
         },
       ],
     },
@@ -262,12 +271,15 @@ const project: IProject.Payload = {
         {
           content:
             'Eliminating nondeterminism in the record and replay system by modifying open source ROS',
-            weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Solving droped messages problem by monitoring the subscription queue' },
-              { content: 'Changing message structure by adding uuid to identify droped and processed messages' },
-              { content: 'Converting the communication model in replay time to solve delay' },
-            ],
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Solving droped messages problem by monitoring the subscription queue' },
+            {
+              content:
+                'Changing message structure by adding uuid to identify droped and processed messages',
+            },
+            { content: 'Converting the communication model in replay time to solve delay' },
+          ],
         },
       ],
     },
