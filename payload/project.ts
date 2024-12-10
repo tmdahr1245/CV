@@ -177,19 +177,19 @@ const project: IProject.Payload = {
     },
     {
       title:
-        'Countermeasures against adversarial attacks targeting ROS-based autonomous driving software',
+        'Adversarial attacks targeting ROS-based autonomous driving software',
       startedAt: '2021-06',
       endedAt: '2021-08',
       where: 'Incognito',
       descriptions: [
         {
-          content: 'Adversarial attacks on camera perception nodes in autonomous driving systems',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'FGSM attack on darknet yolov3' },
-            { content: 'NMS-based algorithm adopted from daedalus paper' },
-            { content: 'Paralysis of camera recognition function of autonomous driving system' },
-          ],
+          content: 'FGSM attack on darknet yolov3',
+        },
+        {
+          content: 'NMS-based algorithm adopted from daedalus paper',
+        },
+        {
+          content: 'Paralysis of camera recognition function of autonomous driving system',
         },
       ],
     },
@@ -402,7 +402,7 @@ const project: IProject.Payload = {
           descriptions: [{ content: 'GitLab / Trello' }],
         },
         {
-          content: 'https://github.com/tmdahr1245/CV/blob/master/docs/dadol_demo.mp4',
+          content: 'https://www.youtube.com/watch?v=6f6Mmr0R51A',
         },
       ],
     },
