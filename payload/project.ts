@@ -176,8 +176,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title:
-        'Adversarial attacks targeting ROS-based autonomous driving software',
+      title: 'Adversarial attacks targeting ROS-based autonomous driving software',
       startedAt: '2021-06',
       endedAt: '2021-08',
       where: 'Incognito',
