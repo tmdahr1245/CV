@@ -5,7 +5,7 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'Korea University',
+      title: 'Korea University (Computer & Communication Security Laboratory (CCS Lab))',
       subTitle: 'M.S. in Computer Science and Engineering',
       // descriptions: [
       //   'Computer & Communication Security Laboratory (CCS Lab)',
