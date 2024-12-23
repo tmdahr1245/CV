@@ -40,6 +40,13 @@ const etc: IEtc.Payload = {
       endedAt: '2019-12',
     },
     {
+      title: 'Military Service(Republic of Korea Army Headquarters)',
+      subTitle:
+        'Army infrastructure security analysis and operations (ESM, SIM, UTM, IDS, IPS, TMS, NAC)',
+      startedAt: '2017-03',
+      endedAt: '2018-12',
+    },
+    {
       title: 'BTRUST',
       subTitle:
         'Security consulting for ISMS certification and penetration testing on servers, DBs, PCs, and websites of a domestic university hospital and a railway company.',
