@@ -33,7 +33,7 @@ with open(file_path, 'w', encoding='utf-8') as file:
 
 old_string = "CV/\" target=\"_blank"
 new_string = "CV/\" target=\"_self"
-file_path = "./docs/KR/index.html"
+file_path = "./docs/index.html"
 
 with open(file_path, 'r', encoding='utf-8') as file:
     content = file.read()

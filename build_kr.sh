@@ -4,6 +4,7 @@ python3 /workspace/cv/modLastUpdate.py
 mv payload payload_en
 mv payload_kr payload
 #mv /workspace/cv/docs/index.html /workspace/cv/docs/index_en.html
+rm -rf /workspace/cv/backup
 mv /workspace/cv/docs /workspace/cv/backup
 # index.html 뿐만 아니라 모든 내용 백업
 npm run export
