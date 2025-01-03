@@ -11,8 +11,8 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Seungmok Kim',
-    small: '(Software Engineer)',
+    title: '김승목',
+    small: '(소프트웨어 엔지니어)',
   },
   contact: [
     {
@@ -21,7 +21,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email.',
+      title: '이메일을 통해 연락 부탁드립니다.',
       icon: faPhone,
       badge: true,
     },
@@ -35,7 +35,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: '한국어 버젼을 원한다면 여기를 클릭하세요.',
-      link: 'https://tmdahr1245.github.io/CV/KR',
+      link: 'https://tmdahr1245.github.io/CV/',
       icon: faCalendar,
     },
   ],

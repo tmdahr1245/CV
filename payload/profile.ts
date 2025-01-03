@@ -11,8 +11,8 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '김승목',
-    small: '(소프트웨어 엔지니어)',
+    title: 'Seungmok kim',
+    small: '(Software Engineer)',
   },
   contact: [
     {
@@ -21,7 +21,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: '이메일로 연락 부탁드립니다.',
+      title: 'Please contact me by email.',
       icon: faPhone,
       badge: true,
     },
