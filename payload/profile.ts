@@ -34,13 +34,15 @@ const profile: IProfile.Payload = {
       icon: faLinkedin,
     },
     {
+      title: '한국어 버젼을 원한다면 여기를 클릭하세요.',
       link: 'https://tmdahr1245.github.io/CV/KR',
       icon: faCalendar,
     },
   ],
   notice: {
-    title: '.',
+    title: '한국어 버젼을 원한다면 여기를 클릭하세요.',
     icon: faBell,
+    link: 'https://tmdahr1245.github.io/CV/KR',
   },
 };
 
