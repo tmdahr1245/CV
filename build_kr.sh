@@ -20,5 +20,6 @@ mv /workspace/cv/docs/*.pdf /workspace/cv/docs/KR
 mv /workspace/cv/docs/_next /workspace/cv/docs/KR
 mv /workspace/cv/backup/* /workspace/cv/docs
 git add /workspace/cv/docs/KR
+git add /workspace/cv/payload_kr
 git commit -m "update index.html kr"
 git push

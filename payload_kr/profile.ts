@@ -34,7 +34,8 @@ const profile: IProfile.Payload = {
       icon: faLinkedin,
     },
     {
-      link: 'https://tmdahr1245.github.io/CV/KR',
+      title: 'If you want the Korean version, click here.',
+      link: 'https://tmdahr1245.github.io/CV/',
       icon: faCalendar,
     },
   ],
