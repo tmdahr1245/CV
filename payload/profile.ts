@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone, faBlog } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faBell, faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/F1QE51673852021.jpg';
 
@@ -32,6 +32,10 @@ const profile: IProfile.Payload = {
     {
       link: 'https://www.linkedin.com/in/seungmok-kim-242990179/',
       icon: faLinkedin,
+    },
+    {
+      link: 'https://tmdahr1245.github.io/CV/KR',
+      icon: faCalendar,
     },
   ],
   notice: {
