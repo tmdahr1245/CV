@@ -40,7 +40,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '.',
+    title: 'I am currently looking for a job. Please feel free to contact me :)',
     icon: faBell,
   },
 };
