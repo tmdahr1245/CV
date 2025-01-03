@@ -40,9 +40,8 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '한국어 버젼을 원한다면 여기를 클릭하세요.',
+    title: '.',
     icon: faBell,
-    link: 'https://tmdahr1245.github.io/CV/KR',
   },
 };
 
