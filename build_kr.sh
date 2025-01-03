@@ -14,11 +14,11 @@ mv payload payload_kr
 mv payload_en payload
 # mv /workspace/cv/docs/index.html /workspace/cv/docs/index_kr.html
 # mv /workspace/cv/docs/index_en.html /workspace/cv/docs/index.html
-mkdir /workspace/cv/docs/kr
-mv /workspace/cv/docs/*.html /workspace/cv/docs/kr
-mv /workspace/cv/docs/*.pdf /workspace/cv/docs/kr
-mv /workspace/cv/docs/_next /workspace/cv/docs/kr
+mkdir /workspace/cv/docs/KR
+mv /workspace/cv/docs/*.html /workspace/cv/docs/KR
+mv /workspace/cv/docs/*.pdf /workspace/cv/docs/KR
+mv /workspace/cv/docs/_next /workspace/cv/docs/KR
 mv /workspace/cv/backup/* /workspace/cv/docs
-git add /workspace/cv/docs/kr
+git add /workspace/cv/docs/KR
 git commit -m "update index.html kr"
 git push

@@ -35,7 +35,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: 'Korean CV will be opening soon.',
+    title: 'If you want korean version, click here.',
     icon: faBell,
   },
 };
