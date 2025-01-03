@@ -2,6 +2,7 @@
 
 python3 /workspace/cv/modLastUpdate.py
 rm -rf /workspace/cv/backup
+mkdir /workspace/cv/backup
 mv /workspace/cv/docs/KR /workspace/cv/backup
 npm run export
 python3 /workspace/cv/modPath.py
