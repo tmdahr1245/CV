@@ -9,7 +9,9 @@ const project: IProject.Payload = {
       where: 'LIG넥스원',
       descriptions: [
         {
-          content: '진행중인 프로젝트',
+          content: '로봇 액션 소프트웨어 설계 및 개발',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'planning, exploring and mapping' }],
         },
       ],
     },
