@@ -10,7 +10,9 @@ const project: IProject.Payload = {
       where: 'LIGNex1',
       descriptions: [
         {
-          content: 'Ongoing project',
+          content: 'Design and development of robot autonomous driving action software',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'planning, exploring and mapping' }],
         },
       ],
     },
