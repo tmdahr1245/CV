@@ -4,14 +4,36 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'PC 보안 SDK 개발',
+      startedAt: '2025-06',
+      where: '...',
+      descriptions: [
+        {
+          content: '...',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '...' }],
+        },
+      ],
+    },
+    {
       title: '유무인 복합체계 공통 아키텍쳐 및 프레임워크 개발',
       startedAt: '2024-11',
+      endedAt: '2025-05',
       where: 'LIG넥스원',
       descriptions: [
         {
           content: '로봇 자율주행 액션 소프트웨어 설계 및 개발',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'planning, exploring and mapping' }],
+          descriptions: [{ content: '자율주행 액션: 이동, 연막, 사격, 조준, 감시, 추적, 조명' }],
+        },
+        {
+          content: '로봇 액션을 조합하여 과업 수행 로직 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '군집 대형유지 기능 개발' },
+            { content: '적군으로부터 은폐 가능한 장애물 찾기 및 장애물 위치 생성 알고리즘 개발' },
+            { content: '영역 탐색을 위한 경로 생성 알고리즘 개발' },
+          ],
         },
       ],
     },
