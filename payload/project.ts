@@ -4,15 +4,45 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'Development of PC security SDK',
+      startedAt: '2025-06',
+      where: '...',
+      descriptions: [
+        {
+          content: '...',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '...' }],
+        },
+      ],
+    },
+    {
       title:
         'Development of a common architecture and framework for MUM-T(Manned-Unmanned Teaming)',
       startedAt: '2024-11',
+      endedAt: '2025-05',
       where: 'LIGNex1',
       descriptions: [
         {
           content: 'Design and development of robot autonomous driving action software',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'planning, exploring and mapping' }],
+          descriptions: [
+            {
+              content:
+                'Autonomous driving action: moving, smoke, shooting, aiming, surveillance, tracking, lighting',
+            },
+          ],
+        },
+        {
+          content: 'Development task execution logic by combining robot actions',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Development of cluster formation maintenance function' },
+            {
+              content:
+                'Development of algorithms for finding obstacles that can be hidden from the enemy and generating obstacle locations',
+            },
+            { content: 'Development of a path generation algorithm for exploration' },
+          ],
         },
       ],
     },
