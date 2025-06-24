@@ -61,7 +61,7 @@ const project: IProject.Payload = {
     },
     {
       title: '초소형 생체모방 로봇용 소프트웨어 프레임워크 기술 개발',
-      startedAt: '2022-12',
+      startedAt: '2022-10',
       endedAt: '2024-11',
       where: 'LIG넥스원',
       descriptions: [
