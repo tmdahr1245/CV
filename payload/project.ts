@@ -70,7 +70,7 @@ const project: IProject.Payload = {
     },
     {
       title: 'Development of software framework technology for ultra-small biomimetic robots',
-      startedAt: '2022-12',
+      startedAt: '2022-10',
       endedAt: '2024-11',
       where: 'LIGNex1',
       descriptions: [
