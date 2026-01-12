@@ -4,6 +4,43 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'Windows Anti-Cheat Development',
+      startedAt: '2025-06',
+      where: 'Smilegate',
+      descriptions: [
+        {
+          content: 'Security Module Development',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Implemented integrity verification logic for game binaries and core resources',
+            },
+            { content: 'Developed runtime state monitoring mechanisms for security modules' },
+            {
+              content:
+                'Applied code protection techniques to hinder reverse engineering and tampering',
+            },
+          ],
+        },
+        {
+          content: 'Game Environment Protection and Detection',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Designed detection logic for abnormal execution environments and bypass attempts',
+            },
+            {
+              content:
+                'Collected behavioral artifacts to detect automation and macro-based activities',
+            },
+            { content: 'Developed engine integration plugins for applying anti-cheat to games' },
+          ],
+        },
+      ],
+    },
+    {
       title: 'Development of PC security SDK',
       startedAt: '2025-06',
       where: '...',
