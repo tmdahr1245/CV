@@ -41,18 +41,6 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Development of PC security SDK',
-      startedAt: '2025-06',
-      where: '...',
-      descriptions: [
-        {
-          content: '...',
-          weight: 'MEDIUM',
-          descriptions: [{ content: '...' }],
-        },
-      ],
-    },
-    {
       title:
         'Development of a common architecture and framework for MUM-T(Manned-Unmanned Teaming)',
       startedAt: '2024-11',
