@@ -1,26 +1,26 @@
 #!/bin/bash
 
-python3 /workspace/cv/modLastUpdate.py
+python3 ~/cv/modLastUpdate.py
 mv payload payload_en
 mv payload_kr payload
 
-rm -rf /workspace/cv/backup
-mkdir /workspace/cv/backup
-mv /workspace/cv/docs/* /workspace/cv/backup
+rm -rf ~/cv/backup
+mkdir ~/cv/backup
+mv ~/cv/docs/* ~/cv/backup
 
 npm run export
-python3 /workspace/cv/modPath.py
-python3 /workspace/cv/appendGATag.py
-cp /workspace/cv/*.pdf /workspace/cv/docs
+python3 ~/cv/modPath_kr.py
+python3 ~/cv/appendGATag.py
+cp ~/cv/*.pdf ~/cv/docs
 mv payload payload_kr
 mv payload_en payload
 
-mkdir /workspace/cv/docs/KR
-mv /workspace/cv/docs/*.html /workspace/cv/docs/KR
-mv /workspace/cv/docs/*.pdf /workspace/cv/docs/KR
-mv /workspace/cv/docs/_next /workspace/cv/docs/KR
-mv /workspace/cv/backup/* /workspace/cv/docs
-git add /workspace/cv/docs/KR
-git add /workspace/cv/payload_kr
+mkdir ~/cv/docs/KR
+mv ~/cv/docs/*.html ~/cv/docs/KR
+mv ~/cv/docs/*.pdf ~/cv/docs/KR
+mv ~/cv/docs/_next ~/cv/docs/KR
+mv ~/cv/backup/* ~/cv/docs
+git add ~/cv/docs/KR
+git add ~/cv/payload_kr
 git commit -m "update index.html kr"
 git push
