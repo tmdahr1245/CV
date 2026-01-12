@@ -4,14 +4,27 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'PC 보안 SDK 개발',
+      title: 'Windows 안티치트 개발',
       startedAt: '2025-06',
-      where: '...',
+      where: '스마일게이트',
       descriptions: [
         {
-          content: '...',
+          content: '보안 모듈 개발',
           weight: 'MEDIUM',
-          descriptions: [{ content: '...' }],
+          descriptions: [
+            { content: '무결성 검증 로직 구현' },
+            { content: '보안 모듈 상태 감시 기능 개발' },
+            { content: '코드 보호 기술 적용' },
+          ],
+        },
+        {
+          content: '게임 환경 보호 및 탐지 기능 구현',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '비정상 실행 환경 및 우회 시도 탐지 로직' },
+            { content: '자동화·매크로 행위 탐지 아티펙트 수집' },
+            { content: '게임 엔진 연동을 위한 플러그인 개발' },
+          ],
         },
       ],
     },
