@@ -5,11 +5,23 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: '스마일게이트',
+      positions: [
+        {
+          title: '안티치트 소프트웨어 엔지니어',
+          startedAt: '2025-06',
+          descriptions: [],
+          skillKeywords: ['C++', 'C', 'Windows', 'SW Test'],
+        },
+      ],
+    },
+    {
       title: 'LIG넥스원',
       positions: [
         {
           title: '로보틱스 소프트웨어 엔지니어',
           startedAt: '2022-10',
+          endedAt: '2025-05',
           descriptions: [
             '로보틱스 자율주행 알고리즘 설계 및 구현',
             '로보틱스 소프트웨어 모듈간 상호 연동',
