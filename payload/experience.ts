@@ -5,11 +5,23 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: 'Smilegate',
+      positions: [
+        {
+          title: 'Anti Cheat Software Engineer',
+          startedAt: '2025-06',
+          descriptions: [],
+          skillKeywords: ['C++', 'C', 'Windows', 'SW Test'],
+        },
+      ],
+    },
+    {
       title: 'LIGNex1',
       positions: [
         {
           title: 'Robotics Software Engineer',
           startedAt: '2022-10',
+          endedAt: '2025-05',
           descriptions: [
             'Designing and implementing robotics autonomous driving algorithm',
             'Interconnecting between each robotics software module',
