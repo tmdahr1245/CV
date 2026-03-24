@@ -146,7 +146,7 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
-    // kernelDevelopment,
+    kernelDevelopment,
     virtualization,
     automation,
     networkSecurity,
