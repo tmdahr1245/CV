@@ -26,35 +26,35 @@ const programmingLanguages: ISkill.Skill = {
   ],
 };
 
-// const kernelDevelopment: ISkill.Skill = {
-//   category: 'Robotics Skills',
-//   items: [
-//     {
-//       title: 'ROS2',
-//       // level: 3,
-//     },
-//     {
-//       title: 'Gazebo',
-//       // level: 3,
-//     },
-//     {
-//       title: 'Path Planning',
-//       // level: 2,
-//     },
-//     {
-//       title: 'Collision Avoidance',
-//       // level: 2,
-//     },
-//     {
-//       title: 'Exploration',
-//       // level: 2,
-//     },
-//     {
-//       title: 'DDS',
-//       // level: 2,
-//     },
-//   ],
-// };
+const kernelDevelopment: ISkill.Skill = {
+  category: 'Robotics Skills',
+  items: [
+    {
+      title: 'ROS2',
+      // level: 3,
+    },
+    {
+      title: 'Gazebo',
+      // level: 3,
+    },
+    {
+      title: 'Path Planning',
+      // level: 2,
+    },
+    {
+      title: 'Collision Avoidance',
+      // level: 2,
+    },
+    {
+      title: 'Exploration',
+      // level: 2,
+    },
+    {
+      title: 'DDS',
+      // level: 2,
+    },
+  ],
+};
 
 const virtualization: ISkill.Skill = {
   category: 'SW Analysis',
