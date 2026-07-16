@@ -4,38 +4,146 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Windows Anti-Cheat Development',
+      title: 'Windows & Android Anti-Cheat Development',
       startedAt: '2025-06',
       where: 'Smilegate',
       descriptions: [
         {
-          content: 'Security Module Development',
+          content: 'Client security features and self-protection modules',
           weight: 'MEDIUM',
           descriptions: [
             {
               content:
-                'Implemented integrity verification logic for game binaries and core resources',
+                'Modularized core security features including anti-cheat, anti-reversing, and bypass prevention',
             },
-            { content: 'Developed runtime state monitoring mechanisms for security modules' },
             {
               content:
-                'Applied code protection techniques to hinder reverse engineering and tampering',
+                'Collected and transmitted user input events (keyboard/mouse) to support behavioral analysis and AI-based detection for the security SDK',
+            },
+            {
+              content:
+                'Built a secure-variable module for sensitive values, and applied code protection, obfuscation, and code signing with analysis difficulty and AV compatibility in mind',
             },
           ],
         },
         {
-          content: 'Game Environment Protection and Detection',
+          content: 'Android & Windows binary/memory integrity verification',
           weight: 'MEDIUM',
           descriptions: [
             {
               content:
-                'Designed detection logic for abnormal execution environments and bypass attempts',
+                'Developed file and memory checksum generation and server upload for Android (NDK) and Windows',
             },
             {
               content:
-                'Collected behavioral artifacts to detect automation and macro-based activities',
+                'Detected on-disk tampering early via code-section checksums and file-size checks on installed binaries',
             },
-            { content: 'Developed engine integration plugins for applying anti-cheat to games' },
+            {
+              content:
+                'Periodically generated and compared in-process memory checksums to detect runtime patching, injection, hooking, and related tampering',
+            },
+            {
+              content:
+                'Implemented Windows PE parsing and block-level parallel hashing so checksums work across Native/Unity/Unreal clients',
+            },
+            {
+              content:
+                'Designed verification timing and baselines to remain stable under ASLR and packer/protector environments',
+            },
+          ],
+        },
+        {
+          content: 'Critical file size checks',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Added comparison of actual critical-file sizes against baseline values for tamper detection',
+            },
+            {
+              content:
+                'Generated target lists and size baselines during build/packaging, extensible by extension or specific files',
+            },
+            {
+              content:
+                'Controlled enablement and response (e.g. log upload) via policy, and ran size checks on a separate thread after checksum generation to limit performance impact',
+            },
+          ],
+        },
+        {
+          content: 'Security DLL/driver health checks and unload detection',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Built background periodic health checks to verify security DLLs and drivers remain loaded and running',
+            },
+            {
+              content:
+                'Detected forced unload or missing load states caused by external cheating tools, tracked load/unload transitions, and uploaded anomaly logs',
+            },
+            {
+              content:
+                'Used multi-API detection with configurable intervals and consecutive-miss thresholds to reduce false positives while enabling timely response',
+            },
+            {
+              content:
+                'Continuously verified commercial security modules are healthy, providing a base to spot early attempts to disable protection',
+            },
+          ],
+        },
+        {
+          content: 'Update, deployment, and integration pipeline',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Implemented CDN-based live updates on security SDK load, plus decrypting encrypted configs/modules into memory',
+            },
+            {
+              content:
+                'Built a pipeline to upload detection/status logs to the security server and support integrity flows across game client, game server, and security server',
+            },
+            {
+              content:
+                'Documented production rollout considerations including conflicts with commercial solutions, AV false positives, and studio integration guides',
+            },
+          ],
+        },
+        {
+          content: 'Per-platform binary obfuscation and performance tuning',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Applied platform-appropriate binary protection and obfuscation to raise the bar for static and dynamic analysis',
+            },
+            {
+              content:
+                'Measured load/runtime overhead by protection strength and tuned options against first-launch impact',
+            },
+            {
+              content:
+                'Compared obfuscation passes by code size, performance, and reverse-engineering resistance, then applied them selectively to core security paths',
+            },
+          ],
+        },
+        {
+          content: 'CI/CD-based binary protection and deployment automation',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Integrated binary obfuscation and protect steps into build/deploy pipelines so protection no longer depends on manual application',
+            },
+            {
+              content:
+                'Standardized create–verify–deploy flows for protected artifacts and automated QA build generation in the pipeline',
+            },
+            {
+              content:
+                'Built reproducible protection pipelines with Docker/Kubernetes for per-platform obfuscation and protection tooling',
+            },
           ],
         },
       ],
@@ -117,11 +225,12 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: 'SW Testing',
+          content: 'SW quality and security verification across the defense development lifecycle',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'SW vulnerability verification' },
-            { content: 'SW coding rules verification' },
+            { content: 'Software vulnerability review and remediation by development stage' },
+            { content: 'Coding-rule verification and fixes for violations' },
+            { content: 'MISRA C++ rule verification and code patches' },
           ],
         },
         {
