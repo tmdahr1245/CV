@@ -5,154 +5,86 @@ const programmingLanguages: ISkill.Skill = {
   items: [
     {
       title: 'C++',
-      // level: 3,
     },
     {
       title: 'C',
-      // level: 3,
     },
     {
       title: 'Python',
-      // level: 2,
     },
-    {
-      title: 'JavaScript',
-      // level: 2,
-    },
-    // {
-    //   title: 'PHP',
-    //   // level: 1,
-    // },
   ],
 };
 
-// const kernelDevelopment: ISkill.Skill = {
-//   category: 'Robotics Skills',
-//   items: [
-//     {
-//       title: 'ROS2',
-//       // level: 3,
-//     },
-//     {
-//       title: 'Gazebo',
-//       // level: 3,
-//     },
-//     {
-//       title: 'Path Planning',
-//       // level: 2,
-//     },
-//     {
-//       title: 'Collision Avoidance',
-//       // level: 2,
-//     },
-//     {
-//       title: 'Exploration',
-//       // level: 2,
-//     },
-//     {
-//       title: 'DDS',
-//       // level: 2,
-//     },
-//   ],
-// };
+const platforms: ISkill.Skill = {
+  category: 'Platforms',
+  items: [
+    {
+      title: 'Windows',
+    },
+    {
+      title: 'Android',
+    },
+    {
+      title: 'Linux',
+    },
+  ],
+};
 
-const virtualization: ISkill.Skill = {
+const analysis: ISkill.Skill = {
   category: 'SW Analysis',
   items: [
     {
-      title: 'GDB',
-      // level: 3,
+      title: 'IDA',
     },
     {
       title: 'X64dbg',
-      // level: 3,
     },
     {
-      title: 'IDA',
-      // level: 2,
+      title: 'GDB',
     },
   ],
 };
 
-const automation: ISkill.Skill = {
-  category: 'Databases',
+const securityEngineering: ISkill.Skill = {
+  category: 'Security Engineering',
   items: [
     {
-      title: 'MariaDB',
-      // level: 3,
+      title: 'Binary Protection',
     },
     {
-      title: 'redis',
-      // level: 3,
+      title: 'Reverse Engineering',
+    },
+    {
+      title: 'Integrity Verification',
     },
   ],
 };
 
-const networkSecurity: ISkill.Skill = {
-  category: 'Etc',
+const devops: ISkill.Skill = {
+  category: 'Build & DevOps',
   items: [
+    {
+      title: 'GitLab CI/CD',
+    },
     {
       title: 'Docker',
-      // level: 3,
     },
     {
-      title: 'Nginx',
-      // level: 3,
+      title: 'Kubernetes',
+    },
+    {
+      title: 'CMake',
     },
     {
       title: 'Git',
-      // level: 2,
-    },
-    {
-      title: 'GitLab CI/CD',
-      // level: 2,
-    },
-    {
-      title: 'Doxygen',
-      // level: 2,
-    },
-    {
-      title: 'Latex',
-      // level: 2,
     },
   ],
 };
 
-// const misc: ISkill.Skill = {
-//   category: 'Misc',
-//   items: [
-//     {
-//       title: 'Coffee Brewing',
-//     },
-//     {
-//       title: "Rubik's Cube Solving",
-//     },
-//     {
-//       title: 'Table Tennis',
-//     },
-//     {
-//       title: 'Guitar Playing',
-//     },
-//     {
-//       title: 'Joke Telling',
-//     },
-//     {
-//       title: 'Duct Tape Crafting',
-//     },
-//   ],
-// };
-
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    // kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    // misc,
-  ],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [programmingLanguages, platforms, analysis, securityEngineering, devops],
+  tooltip: '1: Beginner\n2: Hobby / side-project level\n3: Production-ready level',
 };
 
 export default skill;
